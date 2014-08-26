@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A31B8C24199067DB00DC3425 /* JHOTramiteCuartoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A31B8C23199067DB00DC3425 /* JHOTramiteCuartoViewController.m */; };
+		A31B8C271990728A00DC3425 /* JHOTramiteQuintoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A31B8C261990728A00DC3425 /* JHOTramiteQuintoViewController.m */; };
+		A338BF371997D661004FD9DB /* tramite.png in Resources */ = {isa = PBXBuildFile; fileRef = A338BF361997D661004FD9DB /* tramite.png */; };
+		A338BF391997DDD6004FD9DB /* acerca_De.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A338BF381997DDD6004FD9DB /* acerca_De.jpg */; };
+		A338BF3B1997DE86004FD9DB /* footer.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A338BF3A1997DE86004FD9DB /* footer.jpg */; };
+		A338BF3D19983FF8004FD9DB /* convocatoria-fond.png in Resources */ = {isa = PBXBuildFile; fileRef = A338BF3C19983FF8004FD9DB /* convocatoria-fond.png */; };
+		A338BF3F1998446C004FD9DB /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A338BF3E1998446C004FD9DB /* Social.framework */; };
+		A338BF4119984480004FD9DB /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A338BF4019984480004FD9DB /* Accounts.framework */; };
+		A338BF43199849CB004FD9DB /* Facebook_icon-Convertido.png in Resources */ = {isa = PBXBuildFile; fileRef = A338BF42199849CB004FD9DB /* Facebook_icon-Convertido.png */; };
+		A338BF4519984C33004FD9DB /* TwitterIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = A338BF4419984C33004FD9DB /* TwitterIcon.png */; };
+		A338BF4819988117004FD9DB /* JHOCeldaPasosOfertaTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A338BF4719988117004FD9DB /* JHOCeldaPasosOfertaTableViewCell.m */; };
+		A346C6D8198721EA007EB7C7 /* JHOTramitePrimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A346C6D7198721EA007EB7C7 /* JHOTramitePrimerViewController.m */; };
+		A35E78461991CC3400584FFC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37611EA1991CAE60085B190 /* AVFoundation.framework */; };
+		A35E78471991CC4000584FFC /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A37611EC1991CAF00085B190 /* MediaPlayer.framework */; };
+		A35E784A1993F0CE00584FFC /* JHOListarConvocatoriasViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35E78491993F0CE00584FFC /* JHOListarConvocatoriasViewController.m */; };
+		A35E784D199420C100584FFC /* JHOBuscarGeneralViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A35E784C199420C100584FFC /* JHOBuscarGeneralViewController.m */; };
+		A35FC9F319A1B8A700B7E26B /* link-pagina-convocatoria.png in Resources */ = {isa = PBXBuildFile; fileRef = A35FC9F219A1B8A700B7E26B /* link-pagina-convocatoria.png */; };
+		A366886719704A2C0090D3B2 /* cursos-virtuales.png in Resources */ = {isa = PBXBuildFile; fileRef = A366886619704A2C0090D3B2 /* cursos-virtuales.png */; };
+		A366886A19704A4C0090D3B2 /* e-granja.png in Resources */ = {isa = PBXBuildFile; fileRef = A366886819704A4C0090D3B2 /* e-granja.png */; };
+		A366886B19704A4C0090D3B2 /* suganet.png in Resources */ = {isa = PBXBuildFile; fileRef = A366886919704A4C0090D3B2 /* suganet.png */; };
+		A38B2BB519A8EB8800549256 /* JHOOfertaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38B2BB419A8EB8800549256 /* JHOOfertaViewController.m */; };
+		A38B2BB819A9424A00549256 /* JHOInformacionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38B2BB719A9424A00549256 /* JHOInformacionViewController.m */; };
+		A38DB26F19798F5A00D44BED /* certificado-ceza.png in Resources */ = {isa = PBXBuildFile; fileRef = A38DB26D19798F5A00D44BED /* certificado-ceza.png */; };
+		A38DB27019798F5A00D44BED /* certificado-cfe.png in Resources */ = {isa = PBXBuildFile; fileRef = A38DB26E19798F5A00D44BED /* certificado-cfe.png */; };
+		A38DB2741979C80500D44BED /* titulo_PROCESAGRO.png in Resources */ = {isa = PBXBuildFile; fileRef = A38DB2731979C80500D44BED /* titulo_PROCESAGRO.png */; };
+		A38DB2781979DAD400D44BED /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A38DB2771979DAD400D44BED /* libsqlite3.dylib */; };
+		A38DB28C197C97F200D44BED /* ProcesAgroDB.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = A38DB28B197C97F200D44BED /* ProcesAgroDB.sqlite */; };
+		A38DB28E197CA50100D44BED /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38DB28D197CA50100D44BED /* SystemConfiguration.framework */; };
+		A3919A8D197F726800C2716D /* JHOurlServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3919A8C197F726800C2716D /* JHOurlServicesViewController.m */; };
+		A3919A90197F85C500C2716D /* JHOTramiteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3919A8F197F85C500C2716D /* JHOTramiteViewController.m */; };
+		A3BAADD1196E42760088BC31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BAADD0196E42760088BC31 /* Foundation.framework */; };
+		A3BAADD3196E42760088BC31 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BAADD2196E42760088BC31 /* CoreGraphics.framework */; };
+		A3BAADD5196E42760088BC31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BAADD4196E42760088BC31 /* UIKit.framework */; };
+		A3BAADDB196E42760088BC31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3BAADD9196E42760088BC31 /* InfoPlist.strings */; };
+		A3BAADDD196E42760088BC31 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BAADDC196E42760088BC31 /* main.m */; };
+		A3BAADE1196E42760088BC31 /* JHOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BAADE0196E42760088BC31 /* JHOAppDelegate.m */; };
+		A3BAADE4196E42760088BC31 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BAADE2196E42760088BC31 /* Main_iPhone.storyboard */; };
+		A3BAADE7196E42760088BC31 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3BAADE5196E42760088BC31 /* Main_iPad.storyboard */; };
+		A3BAADEA196E42760088BC31 /* JHOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BAADE9196E42760088BC31 /* JHOViewController.m */; };
+		A3BAADEC196E42760088BC31 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3BAADEB196E42760088BC31 /* Images.xcassets */; };
+		A3BAADF3196E42760088BC31 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BAADF2196E42760088BC31 /* XCTest.framework */; };
+		A3BAADF4196E42760088BC31 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BAADD0196E42760088BC31 /* Foundation.framework */; };
+		A3BAADF5196E42760088BC31 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3BAADD4196E42760088BC31 /* UIKit.framework */; };
+		A3BAADFD196E42760088BC31 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3BAADFB196E42760088BC31 /* InfoPlist.strings */; };
+		A3BAADFF196E42760088BC31 /* ProcesAgroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3BAADFE196E42760088BC31 /* ProcesAgroTests.m */; };
+		A3BAAE09196E5DC00088BC31 /* cursos-05.png in Resources */ = {isa = PBXBuildFile; fileRef = A3BAAE08196E5DC00088BC31 /* cursos-05.png */; };
+		A3CE261B198DF55F00245AAC /* JHOTramiteSegundoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CE261A198DF55F00245AAC /* JHOTramiteSegundoViewController.m */; };
+		A3CE261E198DF7E700245AAC /* JHOTramiteTerceroViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3CE261D198DF7E700245AAC /* JHOTramiteTerceroViewController.m */; };
+		A3EEC7B11995E3D500B29AB8 /* JHOCadaConvocatoriaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3EEC7B01995E3D500B29AB8 /* JHOCadaConvocatoriaViewController.m */; };
+		A3F61D751996C28B0060E538 /* JHOCadaBusquedaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F61D741996C28B0060E538 /* JHOCadaBusquedaViewController.m */; };
+		A3F61D781996D3F50060E538 /* JHOOfertaInstitucionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F61D771996D3F50060E538 /* JHOOfertaInstitucionalViewController.m */; };
+		A3F61D7C1996D4580060E538 /* JHOPasosOfertaInstitucionalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3F61D7B1996D4580060E538 /* JHOPasosOfertaInstitucionalViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A3BAADF6196E42760088BC31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A3BAADC5196E42760088BC31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A3BAADCC196E42760088BC31;
+			remoteInfo = ProcesAgro;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A31B8C22199067DB00DC3425 /* JHOTramiteCuartoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOTramiteCuartoViewController.h; sourceTree = "<group>"; };
+		A31B8C23199067DB00DC3425 /* JHOTramiteCuartoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOTramiteCuartoViewController.m; sourceTree = "<group>"; };
+		A31B8C251990728A00DC3425 /* JHOTramiteQuintoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOTramiteQuintoViewController.h; sourceTree = "<group>"; };
+		A31B8C261990728A00DC3425 /* JHOTramiteQuintoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOTramiteQuintoViewController.m; sourceTree = "<group>"; };
+		A338BF361997D661004FD9DB /* tramite.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tramite.png; path = ../../../../Desktop/tramite.png; sourceTree = "<group>"; };
+		A338BF381997DDD6004FD9DB /* acerca_De.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = acerca_De.jpg; path = ../../../../Desktop/acerca_De.jpg; sourceTree = "<group>"; };
+		A338BF3A1997DE86004FD9DB /* footer.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = footer.jpg; path = ../../../../Desktop/footer.jpg; sourceTree = "<group>"; };
+		A338BF3C19983FF8004FD9DB /* convocatoria-fond.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "convocatoria-fond.png"; sourceTree = "<group>"; };
+		A338BF3E1998446C004FD9DB /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		A338BF4019984480004FD9DB /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
+		A338BF42199849CB004FD9DB /* Facebook_icon-Convertido.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Facebook_icon-Convertido.png"; path = "../../../../Desktop/Facebook_icon-Convertido.png"; sourceTree = "<group>"; };
+		A338BF4419984C33004FD9DB /* TwitterIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = TwitterIcon.png; path = ../../../../Desktop/TwitterIcon.png; sourceTree = "<group>"; };
+		A338BF4619988117004FD9DB /* JHOCeldaPasosOfertaTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOCeldaPasosOfertaTableViewCell.h; sourceTree = "<group>"; };
+		A338BF4719988117004FD9DB /* JHOCeldaPasosOfertaTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOCeldaPasosOfertaTableViewCell.m; sourceTree = "<group>"; };
+		A346C6D6198721EA007EB7C7 /* JHOTramitePrimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOTramitePrimerViewController.h; sourceTree = "<group>"; };
+		A346C6D7198721EA007EB7C7 /* JHOTramitePrimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOTramitePrimerViewController.m; sourceTree = "<group>"; };
+		A35E78481993F0CE00584FFC /* JHOListarConvocatoriasViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOListarConvocatoriasViewController.h; sourceTree = "<group>"; };
+		A35E78491993F0CE00584FFC /* JHOListarConvocatoriasViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOListarConvocatoriasViewController.m; sourceTree = "<group>"; };
+		A35E784B199420C100584FFC /* JHOBuscarGeneralViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOBuscarGeneralViewController.h; sourceTree = "<group>"; };
+		A35E784C199420C100584FFC /* JHOBuscarGeneralViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOBuscarGeneralViewController.m; sourceTree = "<group>"; };
+		A35FC9F219A1B8A700B7E26B /* link-pagina-convocatoria.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "link-pagina-convocatoria.png"; path = "../../../../Desktop/link-pagina-convocatoria.png"; sourceTree = "<group>"; };
+		A366886619704A2C0090D3B2 /* cursos-virtuales.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cursos-virtuales.png"; path = "../../../../Desktop/Proyecto Agroton /Imagenes/imgenesvisual1/cursos-virtuales.png"; sourceTree = "<group>"; };
+		A366886819704A4C0090D3B2 /* e-granja.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "e-granja.png"; path = "../../../../Desktop/Proyecto Agroton /Imagenes/imgenesvisual1/e-granja.png"; sourceTree = "<group>"; };
+		A366886919704A4C0090D3B2 /* suganet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = suganet.png; path = "../../../../Desktop/Proyecto Agroton /Imagenes/imgenesvisual1/suganet.png"; sourceTree = "<group>"; };
+		A37611EA1991CAE60085B190 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A37611EC1991CAF00085B190 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		A38B2BB319A8EB8800549256 /* JHOOfertaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOOfertaViewController.h; sourceTree = "<group>"; };
+		A38B2BB419A8EB8800549256 /* JHOOfertaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOOfertaViewController.m; sourceTree = "<group>"; };
+		A38B2BB619A9424A00549256 /* JHOInformacionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOInformacionViewController.h; sourceTree = "<group>"; };
+		A38B2BB719A9424A00549256 /* JHOInformacionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOInformacionViewController.m; sourceTree = "<group>"; };
+		A38DB26D19798F5A00D44BED /* certificado-ceza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "certificado-ceza.png"; path = "../../../../Desktop/Proyecto Agroton /Imagenes/imgenesvisual1/certificado-ceza.png"; sourceTree = "<group>"; };
+		A38DB26E19798F5A00D44BED /* certificado-cfe.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "certificado-cfe.png"; path = "../../../../Desktop/Proyecto Agroton /Imagenes/imgenesvisual1/certificado-cfe.png"; sourceTree = "<group>"; };
+		A38DB2731979C80500D44BED /* titulo_PROCESAGRO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = titulo_PROCESAGRO.png; path = ../../../../Desktop/titulo_PROCESAGRO.png; sourceTree = "<group>"; };
+		A38DB2771979DAD400D44BED /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		A38DB28B197C97F200D44BED /* ProcesAgroDB.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = ProcesAgroDB.sqlite; sourceTree = "<group>"; };
+		A38DB28D197CA50100D44BED /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A3919A8B197F726800C2716D /* JHOurlServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOurlServicesViewController.h; sourceTree = "<group>"; };
+		A3919A8C197F726800C2716D /* JHOurlServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOurlServicesViewController.m; sourceTree = "<group>"; };
+		A3919A8E197F85C500C2716D /* JHOTramiteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOTramiteViewController.h; sourceTree = "<group>"; };
+		A3919A8F197F85C500C2716D /* JHOTramiteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOTramiteViewController.m; sourceTree = "<group>"; };
+		A3BAADCD196E42760088BC31 /* ProcesAgro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ProcesAgro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BAADD0196E42760088BC31 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A3BAADD2196E42760088BC31 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A3BAADD4196E42760088BC31 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A3BAADD8196E42760088BC31 /* ProcesAgro-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProcesAgro-Info.plist"; sourceTree = "<group>"; };
+		A3BAADDA196E42760088BC31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3BAADDC196E42760088BC31 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A3BAADDE196E42760088BC31 /* ProcesAgro-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ProcesAgro-Prefix.pch"; sourceTree = "<group>"; };
+		A3BAADDF196E42760088BC31 /* JHOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHOAppDelegate.h; sourceTree = "<group>"; };
+		A3BAADE0196E42760088BC31 /* JHOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHOAppDelegate.m; sourceTree = "<group>"; };
+		A3BAADE3196E42760088BC31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		A3BAADE6196E42760088BC31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		A3BAADE8196E42760088BC31 /* JHOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JHOViewController.h; sourceTree = "<group>"; };
+		A3BAADE9196E42760088BC31 /* JHOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JHOViewController.m; sourceTree = "<group>"; };
+		A3BAADEB196E42760088BC31 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A3BAADF1196E42760088BC31 /* ProcesAgroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ProcesAgroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A3BAADF2196E42760088BC31 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A3BAADFA196E42760088BC31 /* ProcesAgroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ProcesAgroTests-Info.plist"; sourceTree = "<group>"; };
+		A3BAADFC196E42760088BC31 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A3BAADFE196E42760088BC31 /* ProcesAgroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProcesAgroTests.m; sourceTree = "<group>"; };
+		A3BAAE08196E5DC00088BC31 /* cursos-05.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "cursos-05.png"; path = "../../../../Desktop/Proyecto Agroton /Imagenes/cursos-05.png"; sourceTree = "<group>"; };
+		A3CE2619198DF55F00245AAC /* JHOTramiteSegundoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOTramiteSegundoViewController.h; sourceTree = "<group>"; };
+		A3CE261A198DF55F00245AAC /* JHOTramiteSegundoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOTramiteSegundoViewController.m; sourceTree = "<group>"; };
+		A3CE261C198DF7E700245AAC /* JHOTramiteTerceroViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOTramiteTerceroViewController.h; sourceTree = "<group>"; };
+		A3CE261D198DF7E700245AAC /* JHOTramiteTerceroViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOTramiteTerceroViewController.m; sourceTree = "<group>"; };
+		A3EEC7AF1995E3D500B29AB8 /* JHOCadaConvocatoriaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOCadaConvocatoriaViewController.h; sourceTree = "<group>"; };
+		A3EEC7B01995E3D500B29AB8 /* JHOCadaConvocatoriaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOCadaConvocatoriaViewController.m; sourceTree = "<group>"; };
+		A3F61D731996C28B0060E538 /* JHOCadaBusquedaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOCadaBusquedaViewController.h; sourceTree = "<group>"; };
+		A3F61D741996C28B0060E538 /* JHOCadaBusquedaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOCadaBusquedaViewController.m; sourceTree = "<group>"; };
+		A3F61D761996D3F50060E538 /* JHOOfertaInstitucionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOOfertaInstitucionalViewController.h; sourceTree = "<group>"; };
+		A3F61D771996D3F50060E538 /* JHOOfertaInstitucionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOOfertaInstitucionalViewController.m; sourceTree = "<group>"; };
+		A3F61D7A1996D4580060E538 /* JHOPasosOfertaInstitucionalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHOPasosOfertaInstitucionalViewController.h; sourceTree = "<group>"; };
+		A3F61D7B1996D4580060E538 /* JHOPasosOfertaInstitucionalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHOPasosOfertaInstitucionalViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A3BAADCA196E42760088BC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A338BF4119984480004FD9DB /* Accounts.framework in Frameworks */,
+				A338BF3F1998446C004FD9DB /* Social.framework in Frameworks */,
+				A35E78461991CC3400584FFC /* AVFoundation.framework in Frameworks */,
+				A35E78471991CC4000584FFC /* MediaPlayer.framework in Frameworks */,
+				A38DB28E197CA50100D44BED /* SystemConfiguration.framework in Frameworks */,
+				A38DB2781979DAD400D44BED /* libsqlite3.dylib in Frameworks */,
+				A3BAADD3196E42760088BC31 /* CoreGraphics.framework in Frameworks */,
+				A3BAADD5196E42760088BC31 /* UIKit.framework in Frameworks */,
+				A3BAADD1196E42760088BC31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BAADEE196E42760088BC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BAADF3196E42760088BC31 /* XCTest.framework in Frameworks */,
+				A3BAADF5196E42760088BC31 /* UIKit.framework in Frameworks */,
+				A3BAADF4196E42760088BC31 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A3BAADC4196E42760088BC31 = {
+			isa = PBXGroup;
+			children = (
+				A3BAADD6196E42760088BC31 /* ProcesAgro */,
+				A3BAADF8196E42760088BC31 /* ProcesAgroTests */,
+				A3BAADCF196E42760088BC31 /* Frameworks */,
+				A3BAADCE196E42760088BC31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A3BAADCE196E42760088BC31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A3BAADCD196E42760088BC31 /* ProcesAgro.app */,
+				A3BAADF1196E42760088BC31 /* ProcesAgroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A3BAADCF196E42760088BC31 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A338BF4019984480004FD9DB /* Accounts.framework */,
+				A338BF3E1998446C004FD9DB /* Social.framework */,
+				A37611EC1991CAF00085B190 /* MediaPlayer.framework */,
+				A37611EA1991CAE60085B190 /* AVFoundation.framework */,
+				A38DB28D197CA50100D44BED /* SystemConfiguration.framework */,
+				A38DB2771979DAD400D44BED /* libsqlite3.dylib */,
+				A3BAADD0196E42760088BC31 /* Foundation.framework */,
+				A3BAADD2196E42760088BC31 /* CoreGraphics.framework */,
+				A3BAADD4196E42760088BC31 /* UIKit.framework */,
+				A3BAADF2196E42760088BC31 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3BAADD6196E42760088BC31 /* ProcesAgro */ = {
+			isa = PBXGroup;
+			children = (
+				A3BAADDF196E42760088BC31 /* JHOAppDelegate.h */,
+				A3BAADE0196E42760088BC31 /* JHOAppDelegate.m */,
+				A3BAADE2196E42760088BC31 /* Main_iPhone.storyboard */,
+				A3BAADE5196E42760088BC31 /* Main_iPad.storyboard */,
+				A3BAADE8196E42760088BC31 /* JHOViewController.h */,
+				A3BAADE9196E42760088BC31 /* JHOViewController.m */,
+				A3BAADEB196E42760088BC31 /* Images.xcassets */,
+				A3BAADD7196E42760088BC31 /* Supporting Files */,
+				A3919A8B197F726800C2716D /* JHOurlServicesViewController.h */,
+				A3919A8C197F726800C2716D /* JHOurlServicesViewController.m */,
+				A3919A8E197F85C500C2716D /* JHOTramiteViewController.h */,
+				A3919A8F197F85C500C2716D /* JHOTramiteViewController.m */,
+				A346C6D6198721EA007EB7C7 /* JHOTramitePrimerViewController.h */,
+				A346C6D7198721EA007EB7C7 /* JHOTramitePrimerViewController.m */,
+				A3CE2619198DF55F00245AAC /* JHOTramiteSegundoViewController.h */,
+				A3CE261A198DF55F00245AAC /* JHOTramiteSegundoViewController.m */,
+				A3CE261C198DF7E700245AAC /* JHOTramiteTerceroViewController.h */,
+				A3CE261D198DF7E700245AAC /* JHOTramiteTerceroViewController.m */,
+				A31B8C22199067DB00DC3425 /* JHOTramiteCuartoViewController.h */,
+				A31B8C23199067DB00DC3425 /* JHOTramiteCuartoViewController.m */,
+				A31B8C251990728A00DC3425 /* JHOTramiteQuintoViewController.h */,
+				A31B8C261990728A00DC3425 /* JHOTramiteQuintoViewController.m */,
+				A35E78481993F0CE00584FFC /* JHOListarConvocatoriasViewController.h */,
+				A35E78491993F0CE00584FFC /* JHOListarConvocatoriasViewController.m */,
+				A35E784B199420C100584FFC /* JHOBuscarGeneralViewController.h */,
+				A35E784C199420C100584FFC /* JHOBuscarGeneralViewController.m */,
+				A3EEC7AF1995E3D500B29AB8 /* JHOCadaConvocatoriaViewController.h */,
+				A3EEC7B01995E3D500B29AB8 /* JHOCadaConvocatoriaViewController.m */,
+				A3F61D731996C28B0060E538 /* JHOCadaBusquedaViewController.h */,
+				A3F61D741996C28B0060E538 /* JHOCadaBusquedaViewController.m */,
+				A3F61D761996D3F50060E538 /* JHOOfertaInstitucionalViewController.h */,
+				A3F61D771996D3F50060E538 /* JHOOfertaInstitucionalViewController.m */,
+				A3F61D7A1996D4580060E538 /* JHOPasosOfertaInstitucionalViewController.h */,
+				A3F61D7B1996D4580060E538 /* JHOPasosOfertaInstitucionalViewController.m */,
+				A338BF4619988117004FD9DB /* JHOCeldaPasosOfertaTableViewCell.h */,
+				A338BF4719988117004FD9DB /* JHOCeldaPasosOfertaTableViewCell.m */,
+				A38B2BB319A8EB8800549256 /* JHOOfertaViewController.h */,
+				A38B2BB419A8EB8800549256 /* JHOOfertaViewController.m */,
+				A38B2BB619A9424A00549256 /* JHOInformacionViewController.h */,
+				A38B2BB719A9424A00549256 /* JHOInformacionViewController.m */,
+			);
+			path = ProcesAgro;
+			sourceTree = "<group>";
+		};
+		A3BAADD7196E42760088BC31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A35FC9F219A1B8A700B7E26B /* link-pagina-convocatoria.png */,
+				A338BF4419984C33004FD9DB /* TwitterIcon.png */,
+				A338BF42199849CB004FD9DB /* Facebook_icon-Convertido.png */,
+				A338BF3C19983FF8004FD9DB /* convocatoria-fond.png */,
+				A338BF3A1997DE86004FD9DB /* footer.jpg */,
+				A338BF381997DDD6004FD9DB /* acerca_De.jpg */,
+				A338BF361997D661004FD9DB /* tramite.png */,
+				A38DB28B197C97F200D44BED /* ProcesAgroDB.sqlite */,
+				A38DB2731979C80500D44BED /* titulo_PROCESAGRO.png */,
+				A38DB26D19798F5A00D44BED /* certificado-ceza.png */,
+				A38DB26E19798F5A00D44BED /* certificado-cfe.png */,
+				A366886819704A4C0090D3B2 /* e-granja.png */,
+				A366886919704A4C0090D3B2 /* suganet.png */,
+				A366886619704A2C0090D3B2 /* cursos-virtuales.png */,
+				A3BAAE08196E5DC00088BC31 /* cursos-05.png */,
+				A3BAADD8196E42760088BC31 /* ProcesAgro-Info.plist */,
+				A3BAADD9196E42760088BC31 /* InfoPlist.strings */,
+				A3BAADDC196E42760088BC31 /* main.m */,
+				A3BAADDE196E42760088BC31 /* ProcesAgro-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A3BAADF8196E42760088BC31 /* ProcesAgroTests */ = {
+			isa = PBXGroup;
+			children = (
+				A3BAADFE196E42760088BC31 /* ProcesAgroTests.m */,
+				A3BAADF9196E42760088BC31 /* Supporting Files */,
+			);
+			path = ProcesAgroTests;
+			sourceTree = "<group>";
+		};
+		A3BAADF9196E42760088BC31 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A3BAADFA196E42760088BC31 /* ProcesAgroTests-Info.plist */,
+				A3BAADFB196E42760088BC31 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A3BAADCC196E42760088BC31 /* ProcesAgro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3BAAE02196E42760088BC31 /* Build configuration list for PBXNativeTarget "ProcesAgro" */;
+			buildPhases = (
+				A3BAADC9196E42760088BC31 /* Sources */,
+				A3BAADCA196E42760088BC31 /* Frameworks */,
+				A3BAADCB196E42760088BC31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ProcesAgro;
+			productName = ProcesAgro;
+			productReference = A3BAADCD196E42760088BC31 /* ProcesAgro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A3BAADF0196E42760088BC31 /* ProcesAgroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A3BAAE05196E42760088BC31 /* Build configuration list for PBXNativeTarget "ProcesAgroTests" */;
+			buildPhases = (
+				A3BAADED196E42760088BC31 /* Sources */,
+				A3BAADEE196E42760088BC31 /* Frameworks */,
+				A3BAADEF196E42760088BC31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3BAADF7196E42760088BC31 /* PBXTargetDependency */,
+			);
+			name = ProcesAgroTests;
+			productName = ProcesAgroTests;
+			productReference = A3BAADF1196E42760088BC31 /* ProcesAgroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A3BAADC5196E42760088BC31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = JHO;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = jhonatan;
+				TargetAttributes = {
+					A3BAADF0196E42760088BC31 = {
+						TestTargetID = A3BAADCC196E42760088BC31;
+					};
+				};
+			};
+			buildConfigurationList = A3BAADC8196E42760088BC31 /* Build configuration list for PBXProject "ProcesAgro" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A3BAADC4196E42760088BC31;
+			productRefGroup = A3BAADCE196E42760088BC31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A3BAADCC196E42760088BC31 /* ProcesAgro */,
+				A3BAADF0196E42760088BC31 /* ProcesAgroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A3BAADCB196E42760088BC31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A338BF43199849CB004FD9DB /* Facebook_icon-Convertido.png in Resources */,
+				A3BAADE7196E42760088BC31 /* Main_iPad.storyboard in Resources */,
+				A38DB2741979C80500D44BED /* titulo_PROCESAGRO.png in Resources */,
+				A3BAADEC196E42760088BC31 /* Images.xcassets in Resources */,
+				A338BF391997DDD6004FD9DB /* acerca_De.jpg in Resources */,
+				A338BF3D19983FF8004FD9DB /* convocatoria-fond.png in Resources */,
+				A38DB27019798F5A00D44BED /* certificado-cfe.png in Resources */,
+				A35FC9F319A1B8A700B7E26B /* link-pagina-convocatoria.png in Resources */,
+				A338BF3B1997DE86004FD9DB /* footer.jpg in Resources */,
+				A338BF4519984C33004FD9DB /* TwitterIcon.png in Resources */,
+				A338BF371997D661004FD9DB /* tramite.png in Resources */,
+				A3BAAE09196E5DC00088BC31 /* cursos-05.png in Resources */,
+				A38DB28C197C97F200D44BED /* ProcesAgroDB.sqlite in Resources */,
+				A3BAADE4196E42760088BC31 /* Main_iPhone.storyboard in Resources */,
+				A366886A19704A4C0090D3B2 /* e-granja.png in Resources */,
+				A366886B19704A4C0090D3B2 /* suganet.png in Resources */,
+				A366886719704A2C0090D3B2 /* cursos-virtuales.png in Resources */,
+				A38DB26F19798F5A00D44BED /* certificado-ceza.png in Resources */,
+				A3BAADDB196E42760088BC31 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BAADEF196E42760088BC31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BAADFD196E42760088BC31 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A3BAADC9196E42760088BC31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3919A8D197F726800C2716D /* JHOurlServicesViewController.m in Sources */,
+				A3BAADE1196E42760088BC31 /* JHOAppDelegate.m in Sources */,
+				A35E784D199420C100584FFC /* JHOBuscarGeneralViewController.m in Sources */,
+				A3F61D7C1996D4580060E538 /* JHOPasosOfertaInstitucionalViewController.m in Sources */,
+				A31B8C24199067DB00DC3425 /* JHOTramiteCuartoViewController.m in Sources */,
+				A35E784A1993F0CE00584FFC /* JHOListarConvocatoriasViewController.m in Sources */,
+				A3F61D751996C28B0060E538 /* JHOCadaBusquedaViewController.m in Sources */,
+				A3BAADDD196E42760088BC31 /* main.m in Sources */,
+				A31B8C271990728A00DC3425 /* JHOTramiteQuintoViewController.m in Sources */,
+				A3EEC7B11995E3D500B29AB8 /* JHOCadaConvocatoriaViewController.m in Sources */,
+				A3919A90197F85C500C2716D /* JHOTramiteViewController.m in Sources */,
+				A338BF4819988117004FD9DB /* JHOCeldaPasosOfertaTableViewCell.m in Sources */,
+				A3F61D781996D3F50060E538 /* JHOOfertaInstitucionalViewController.m in Sources */,
+				A38B2BB519A8EB8800549256 /* JHOOfertaViewController.m in Sources */,
+				A3BAADEA196E42760088BC31 /* JHOViewController.m in Sources */,
+				A3CE261B198DF55F00245AAC /* JHOTramiteSegundoViewController.m in Sources */,
+				A38B2BB819A9424A00549256 /* JHOInformacionViewController.m in Sources */,
+				A3CE261E198DF7E700245AAC /* JHOTramiteTerceroViewController.m in Sources */,
+				A346C6D8198721EA007EB7C7 /* JHOTramitePrimerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A3BAADED196E42760088BC31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3BAADFF196E42760088BC31 /* ProcesAgroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3BAADF7196E42760088BC31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A3BAADCC196E42760088BC31 /* ProcesAgro */;
+			targetProxy = A3BAADF6196E42760088BC31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A3BAADD9196E42760088BC31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3BAADDA196E42760088BC31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A3BAADE2196E42760088BC31 /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3BAADE3196E42760088BC31 /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		A3BAADE5196E42760088BC31 /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3BAADE6196E42760088BC31 /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		A3BAADFB196E42760088BC31 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A3BAADFC196E42760088BC31 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A3BAAE00196E42760088BC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A3BAAE01196E42760088BC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A3BAAE03196E42760088BC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProcesAgro/ProcesAgro-Prefix.pch";
+				INFOPLIST_FILE = "ProcesAgro/ProcesAgro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A3BAAE04196E42760088BC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProcesAgro/ProcesAgro-Prefix.pch";
+				INFOPLIST_FILE = "ProcesAgro/ProcesAgro-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A3BAAE06196E42760088BC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProcesAgro.app/ProcesAgro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProcesAgro/ProcesAgro-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ProcesAgroTests/ProcesAgroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A3BAAE07196E42760088BC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ProcesAgro.app/ProcesAgro";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ProcesAgro/ProcesAgro-Prefix.pch";
+				INFOPLIST_FILE = "ProcesAgroTests/ProcesAgroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A3BAADC8196E42760088BC31 /* Build configuration list for PBXProject "ProcesAgro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BAAE00196E42760088BC31 /* Debug */,
+				A3BAAE01196E42760088BC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3BAAE02196E42760088BC31 /* Build configuration list for PBXNativeTarget "ProcesAgro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BAAE03196E42760088BC31 /* Debug */,
+				A3BAAE04196E42760088BC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A3BAAE05196E42760088BC31 /* Build configuration list for PBXNativeTarget "ProcesAgroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3BAAE06196E42760088BC31 /* Debug */,
+				A3BAAE07196E42760088BC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A3BAADC5196E42760088BC31 /* Project object */;
+}
